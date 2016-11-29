@@ -28,6 +28,7 @@ object PathConstants {
 
   final val taskBasePath = "/scheduler/task/"
   final val killTaskPattern = "kill/{jobName}"
+  final val getLeaderPattern = "/leader"
 
   final val isMasterPath = "isMaster"
   final val infoPath = "info"
